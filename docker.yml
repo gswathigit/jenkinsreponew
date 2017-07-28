@@ -25,7 +25,7 @@
     - name: Launch docker container
       docker_container:
         name: testapp
-        image:swathi424/testapp :v1
+        image: swathi424/testapp:v1
         ports:
           - "4040:8080"
 
